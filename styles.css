@@ -3,24 +3,42 @@ body{
     margin: 0;
 
 }
+div{
+    box-sizing: border-box;
+}
 header{
     background-color: white;
+    font-size:xx-large;
     text-align: center;
-    font-size: 40px;
-    padding: 30px;
-    width: auto;
-    height: 50px;
+    padding: 5px;
 }
 div.container{
     width: 600px;
-    margin: 20px 600px;
+    margin: 20px 30%;
     background-color: white;
 }
 div.Post img{
     width: 100%;
     height: 100%;
 }
-div.top{
+div.Post{
+    position: relative;
     display: inline-block;
 }
-
+div.Post h1{
+    padding: none;  
+    display: inline-block;
+    width: 85%;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+div.Post span{
+    padding: none;
+    display: inline-block;
+    font-size: larger;
+}
+div.description{
+    padding:10px;
+    text-align: left;
+}
