@@ -8,13 +8,13 @@ div{
 }
 header{
     background-color: white;
-    font-size:xx-large;
+    font-size:30px;
     text-align: center;
     padding: 5px;
 }
 div.container{
     width: 600px;
-    margin: 20px 30%;
+    margin: 10px 33%;
     background-color: white;
 }
 div.Post img{
